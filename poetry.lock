@@ -29,7 +29,18 @@ files = [
 [package.extras]
 cp2110 = ["hidapi"]
 
+[[package]]
+name = "uflash"
+version = "2.0.0"
+description = "A module and utility to flash Python onto the BBC micro:bit."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "uflash-2.0.0.tar.gz", hash = "sha256:f583d2264fcf37e3e358f1f3a4370ce43b24eb3fdf845a477202555235b52582"},
+]
+
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "426c3cf545877fe1f63cf123c5ed666c6102de16c57e98a57844d9aab2da80a5"
+content-hash = "9d48df9d623b6a9e2efddb278e83647a4e18e95e9e4c81deb3606d10fd947c98"

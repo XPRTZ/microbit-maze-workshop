@@ -8,8 +8,12 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "microfs (>=1.4.5,<2.0.0)"
+    "microfs (>=1.4.5,<2.0.0)",
+    "uflash (>=2.0.0,<3.0.0)"
 ]
+
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
