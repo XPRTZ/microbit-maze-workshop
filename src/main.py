@@ -1,9 +1,9 @@
 from microbit import *
-from Cutebot import *
+from cutebot import *
 import random
 import music
 
-ct = CUTEBOT()
+ct = Cutebot()
 
 
 centering = False
