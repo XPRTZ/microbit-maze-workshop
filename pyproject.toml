@@ -1,0 +1,16 @@
+[project]
+name = "microbit-maze-workshop"
+version = "0.1.0"
+description = "Micro:bit Maze Workshop"
+authors = [
+    { name = "Sander Nijhof", email = "sander1992nijhof@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "microfs (>=1.4.5,<2.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
