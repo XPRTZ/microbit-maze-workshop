@@ -13,6 +13,7 @@ A collection of useful links to get started with Micro:bit and MicroPython or to
 - [Micro:bit Python Documentation](https://microbit.org/get-started/user-guide/python/)
 - [Micro python](https://github.com/micropython/micropython)
 - [micro:bit Microsoft](https://makecode.microbit.org/)
+- [Cutebot robot](https://elecfreaks.com/learn-en/microbitKit/smart_cutebot/index.html)
 
 ### VSCode:
 - [VScode Extension](https://marketplace.visualstudio.com/items/?itemName=MAKinteract.micro-bit-python)
