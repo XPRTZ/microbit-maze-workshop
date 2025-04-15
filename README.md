@@ -20,9 +20,9 @@ Deze versie maakt gebruik van het kompas om te draaien en weer terug te draaien.
 - Herkennen uitgang doolhof (ultrasonic sensor kan ver kijken > 100cm)
 
 ### Links:
-[Smart Cutebot Samples for Python](https://www.elecfreaks.com/learn-en/microbitKit/smart_cutebot/cutebot-python.html)
-[IDE in de browser](https://python.microbit.org/v/beta)
-[micro:bit Python VSCode](https://marketplace.visualstudio.com/items?itemName=MAKinteract.micro-bit-python)
+- [Smart Cutebot Samples for Python](https://www.elecfreaks.com/learn-en/microbitKit/smart_cutebot/cutebot-python.html)
+- [IDE in de browser](https://python.microbit.org/v/beta)
+- [micro:bit Python VSCode](https://marketplace.visualstudio.com/items?itemName=MAKinteract.micro-bit-python)
 
 
 
