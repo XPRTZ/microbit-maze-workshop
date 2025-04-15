@@ -17,10 +17,14 @@ Deze versie maakt gebruik van het kompas om te draaien en weer terug te draaien.
 - Maak gebruik van de ultrasonic sensor om muren te herkennen
 - Het doolhof is een 7x7 grid, probeer de kortste weg te vinden.
 - Herken andere robots in het doolhof
+- Herkennen uitgang doolhof (ultrasonic sensor kan ver kijken > 100cm)
 
-Handige links:
+### Links:
 [Smart Cutebot Samples for Python](https://www.elecfreaks.com/learn-en/microbitKit/smart_cutebot/cutebot-python.html)
 [IDE in de browser](https://python.microbit.org/v/beta)
+[micro:bit Python VSCode](https://marketplace.visualstudio.com/items?itemName=MAKinteract.micro-bit-python)
+
+
 
 
 
