@@ -30,10 +30,10 @@ class CUTEBOT(object):
         :param right_wheel_speed: 右轮速度-100～100
         :return: none
         """
-        if left_wheel_speed > 100 or left_wheel_speed < -100:
-            raise ValueError('speed error,-100~100')
-        if right_wheel_speed > 100 or right_wheel_speed < -100:
-            raise ValueError('speed error,-100~100')
+        # if left_wheel_speed > 100 or left_wheel_speed < -100:
+        #     raise ValueError('speed error,-100~100')
+        # if right_wheel_speed > 100 or right_wheel_speed < -100:
+        #     raise ValueError('speed error,-100~100')
         left_direction = 0x02 if left_wheel_speed > 0 else 0x01
         right_direction = 0x02 if right_wheel_speed > 0 else 0x01
         left_wheel_speed = left_wheel_speed if left_wheel_speed > 0 else left_wheel_speed * -1
@@ -58,9 +58,9 @@ class CUTEBOT(object):
 
     def get_distance(self, unit: int = 0):
         """
-        车头超声波读取距离
-        :param unit:检测距离单位 0 厘米 1 英尺
-        :return:距离
+        Read the distance using the front ultrasonic sensor
+        :param unit: Unit of measurement for distance, 0 for centimeters, 1 for feet
+        :return: Distance
         """
         self.__pin_e.read_digital()
         self.__pin_t.write_digital(1)
